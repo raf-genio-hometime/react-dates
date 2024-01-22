@@ -367,7 +367,7 @@ class DayPicker extends React.PureComponent {
     }
   }
 
-  componentWillUpdate() {
+  UNSAFE_componentWillUpdate() {
     const { transitionDuration } = this.props;
 
     // Calculating the dimensions trigger a DOM repaint which
